@@ -30,12 +30,15 @@ export function Header() {
           </div>
 
           <div className="flex items-center space-x-4">
+            
             <button className="p-2 rounded-full hover:bg-indigo-600">
               <Search className="h-5 w-5" />
             </button>
+            <Link to="/auth" className="hover:text-indigo-200 px-3 py-2">
             <button className="p-2 rounded-full hover:bg-indigo-600">
               <Globe2 className="h-5 w-5" />
             </button>
+            </Link>
             <button className="md:hidden p-2 rounded-full hover:bg-indigo-600">
               <Menu className="h-5 w-5" />
             </button>
